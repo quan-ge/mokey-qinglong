@@ -16,3 +16,5 @@
 并提交宝贵的意见。
 
 （目前功能并不完善，轻喷）
+
+》》[奇妙应用](https://github.com/quan-ge/mokey-qinglong/blob/main/help/qmyy.md)
