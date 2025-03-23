@@ -1,5 +1,5 @@
 # cron:6 6 * * *
-# new Env("[mokey]奇妙应用自动签到")
+# const $ = new Env("[mokey]奇妙应用自动签到")
 
 import requests
 import datetime
