@@ -1,12 +1,11 @@
 # cron:6 6 * * *
 # const $ = new Env("[mokey]奇妙应用自动签到")
-
-import requests
-import datetime
-
 # V1.0.1
 # 作者：全戈
 # QUAN_GE
+
+import requests
+import datetime
 
 # 用户ID和token
 getEnvs_list = QLAPI.getEnvs({ "searchValue": "mokey_qmyy_token" })
@@ -42,19 +41,6 @@ headers = {
     'User-Agent': 'okhttp/4.9.3'
 }
 
-#修bug
-a_info = "❌❌❌出现未知错误，自动签到情况未知"
-b_info = "❌❌❌出现未知错误，自动爆金币情况未知"
-info = """
-账号 {user_id} 签到失败❌❌❌
-~~~~~~~~~~
-❌❌❌出现未知错误，自动签到情况未知❌❌❌
-运行时间：{today}
-~~~~~~~~~~
-脚本来自mokey项目，作者全戈
-"""
-
-
 # 签到操作
 sign_response = requests.get(sign_url, headers=headers)
 if sign_response.status_code == 200:
@@ -87,7 +73,6 @@ else:
 total_coins = coin_count_sign + coin_count_burst
 str_total_coins = str( total_coins )
 
-
 info = f"""
 账号 {user_id} 签到完成✅✅✅
 猴子脚本-奇妙应用自动签到
@@ -101,10 +86,11 @@ info = f"""
 数据仅供参考，重复签到可能导致数据不准~
 ~~~~~~~~~~
 脚本来自mokey项目，作者全戈
+项目地址：
+https://github.com/quan-ge/mokey-qinglong/
 """
 
 print(info)
-
 
 # 调用青龙api发送通知
 print("发送通知...")
