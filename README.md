@@ -10,11 +10,10 @@
 但可能给人不稳定不靠谱的感觉，所以删除字母N。
 
 # 使用教程
-目前第一个脚本正在完善和测试，敬请期待。
+目前第一个脚本已发布，后续将持续更新。
+非常感谢您提出宝贵的意见。
 
-当然，你也可以下载bate版本。
-并提交宝贵的意见。
+》》[前往查看教程](https://github.com/quan-ge/mokey-qinglong/blob/main/help/mokey.md)
 
-（目前功能并不完善，轻喷）
-
-》》[奇妙应用](https://github.com/quan-ge/mokey-qinglong/blob/main/help/qmyy.md)
+#### 脚本使用教程
+》》[奇妙应用自动签到](https://github.com/quan-ge/mokey-qinglong/blob/main/help/qmyy.md)
