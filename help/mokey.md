@@ -21,4 +21,4 @@
 
 3. 您已经完成✅猴子脚本的安装了，
 
-请您前往脚本使用教程
+[请您前往脚本使用教程](https://github.com/quan-ge/mokey-qinglong?tab=readme-ov-file#%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)
