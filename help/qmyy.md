@@ -36,7 +36,7 @@
 
 12. 点击“奇妙应用”的那一段请求，按照如图所示，复制token
 
-![奇妙应用_12](https://raw.githubusercontent.com/quan-ge/mokey-qinglong/refs/heads/main/help/jpg/qmyy_12.jpg "奇妙应用_12")
+![奇妙应用_12](https://raw.githubusercontent.com/quan-ge/mokey-qinglong/refs/heads/main/help/jpg/help_qmyy_12.jpg "奇妙应用_12")
 
 13. 记得找个地方保存token，并且不要发给别人或公开
 
