@@ -35,8 +35,10 @@
 > 订阅 属于 mokey
 >
 
-5. 全选，点击全部禁用
+5. 选择视觉图“ [mokey]猴子脚本”
 
-6. 您已经完成✅猴子脚本的安装了，
+6. 全选，点击全部禁用
+
+7. 您已经完成✅猴子脚本的安装了，
 
 [请您前往脚本使用教程。](https://github.com/quan-ge/mokey-qinglong?tab=readme-ov-file#%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)
