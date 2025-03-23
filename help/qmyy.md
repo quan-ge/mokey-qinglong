@@ -11,7 +11,12 @@
 
 2. 左上角三条杠 --＞ 打开设置中心
 
+![奇妙应用_2](https://raw.githubusercontent.com/quan-ge/mokey-qinglong/refs/heads/main/help/jpg/qmyy_2.jpg "奇妙应用_2"）
+
 3. httpcanary根证书 --＞ 导出根证书
+
+![奇妙应用_3](https://raw.githubusercontent.com/quan-ge/mokey-qinglong/refs/heads/main/help/jpg/qmyy_3.jpg "奇妙应用_3")
+
 
 4. 选择 .pem 格式保存。
 
@@ -30,6 +35,8 @@
 11. 返回“httpcanary”，再次点击右下角纸飞机图标结束抓包。
 
 12. 点击“奇妙应用”的那一段请求，按照如图所示，复制token
+
+![奇妙应用_12](https://raw.githubusercontent.com/quan-ge/mokey-qinglong/refs/heads/main/help/jpg/qmyy_12.jpg "奇妙应用_12")
 
 13. 记得找个地方保存token，并且不要发给别人或公开
 
