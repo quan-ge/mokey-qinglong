@@ -2,8 +2,8 @@ import requests
 import datetime
 
 # V1.0.1
-#作者：全戈
-#QUAN_GE
+# 作者：全戈
+# QUAN_GE
 
 # 用户ID和token
 getEnvs_list = QLAPI.getEnvs({ "searchValue": "mokey_qmyy_token" })
