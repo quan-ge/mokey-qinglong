@@ -11,7 +11,7 @@
 
 2. 左上角三条杠 --＞ 打开设置中心
 
-![奇妙应用_2](https://raw.githubusercontent.com/quan-ge/mokey-qinglong/refs/heads/main/help/jpg/qmyy_2.jpg "奇妙应用_2"）
+![奇妙应用_2](https://raw.githubusercontent.com/quan-ge/mokey-qinglong/refs/heads/main/help/jpg/qmyy_2.jpg "奇妙应用_2")
 
 3. httpcanary根证书 --＞ 导出根证书
 
