@@ -17,3 +17,7 @@
 
 #### 脚本使用教程
 》》[奇妙应用自动签到](https://github.com/quan-ge/mokey-qinglong/blob/main/help/qmyy.md)
+
+|  名称   | 多账号  | 登录方式  |
+|  ----  | ----   |   ----   |
+| 奇妙应用 | ❌    |  tokey+id  |
