@@ -53,6 +53,8 @@ def cryptString(sourceStr):
 # 用户ID和token
 getEnvs_list = QLAPI.getEnvs({ "searchValue": "mokey_qmyy_token" })
 YourToken = getEnvs_list['data']
+if YourToken == []
+    print('未在环境变量中添加token，出现错误，请翻阅官方文档')
 YourToken = YourToken[ 0 ]
 YourToken_name = YourToken['name']
 if YourToken_name == 'mokey_qmyy_token':
@@ -62,6 +64,8 @@ else:
 
 getEnvs_list_2 = QLAPI.getEnvs({ "searchValue": "mokey_qmyy_id" })
 YourUID = getEnvs_list_2['data']
+if YourUID == []
+    print('未在环境变量中添加ID，出现错误，请翻阅官方文档')
 YourUID = YourUID[ 0 ]
 YourUID_name = YourUID['name']
 if YourUID_name == 'mokey_qmyy_id':
