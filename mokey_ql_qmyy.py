@@ -6,49 +6,7 @@
 
 import requests
 import datetime
-#加解密部分，来自网络
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import pad, unpad
-from Crypto.Random import get_random_bytes
-import base64
-import random
 
-Aplhabate = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-RandomStr = lambda length: "".join(random.choices(Aplhabate, k=length))
-
-def decryptString(sourceStr):
-    cryptStr = sourceStr[16:]
-    key = sourceStr[:16]
-    try:
-        if cryptStr and len(key) == 16:
-            keyBytes = key.encode('utf-8')
-            cryptStrBytes = base64.b64decode(cryptStr)
-            
-            cipher = AES.new(keyBytes, AES.MODE_ECB)
-            decryptedData = cipher.decrypt(cryptStrBytes)
-            unpaddedData = unpad(decryptedData, AES.block_size)
-            return unpaddedData.decode('utf-8')
-        else:
-            raise ValueError
-    except Exception as Err:
-        print("Something Wrong When Decrypt")
-        print(Err)
-        return "{\"message\": \"Error\"}"
-
-def cryptString(sourceStr):
-    key = RandomStr(16)
-    try:
-        keyBytes = key.encode('utf-8')
-        sourceStrBytes = sourceStr.encode("utf-8")
-        
-        cipher = AES.new(keyBytes, AES.MODE_ECB)
-        paddedBytes = pad(sourceStrBytes, AES.block_size, style='pkcs7')
-        ciphertextBytes = cipher.encrypt(paddedBytes)
-        return key + base64.b64encode(ciphertextBytes).decode()
-    except Exception as Err:
-        print("Something Wrong When Encrypt")
-        print(Err)
-        return "Error"
 
 # 用户ID和token
 getEnvs_list = QLAPI.getEnvs({ "searchValue": "mokey_qmyy_token" })
