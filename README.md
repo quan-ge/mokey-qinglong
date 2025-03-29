@@ -9,7 +9,7 @@
 目前第一个脚本已发布，后续将持续更新。
 非常感谢您提出宝贵的意见。
 
-》》[前往查看教程](https://github.com/quan-ge/mokey-qinglong/blob/main/help/mokey.md)
+》》[前往查看猴子脚本安装教程](https://github.com/quan-ge/mokey-qinglong/blob/main/help/mokey.md)
 
 #### 脚本使用教程
 》》[奇妙应用自动签到](https://github.com/quan-ge/mokey-qinglong/blob/main/help/qmyy.md)
