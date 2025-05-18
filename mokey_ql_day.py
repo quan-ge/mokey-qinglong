@@ -1,6 +1,6 @@
-# cron:7 0 * * *
+# cron:6 0 * * *
 # const $ = new Env("[mokey]每日通知")
-# V1.0.1
+# V1.1.0
 # 作者：QUAN_GE
 # 
 
