@@ -2,6 +2,8 @@
 
 爱发电/催更：https://afdian.com/a/QUAN_GE
 
+求star！！！
+
 ⭐️⭐️⭐️⭐️⭐️
 
 脚本仅供学习参考
