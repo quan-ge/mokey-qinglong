@@ -9,18 +9,22 @@ import datetime
 
 # 用户ID和token
 getEnvs_list = QLAPI.getEnvs({ "searchValue": "mokey_qmyy_token" })
+print(getEnvs_list)
 YourToken = getEnvs_list['data']
 YourToken = YourToken[ 0 ]
 YourToken_name = YourToken['name']
+print(YourToken)
 if YourToken_name == 'mokey_qmyy_token':
     YourToken = YourToken[ 'value' ]
 else:
     print('未在环境变量中添加token，出现错误，请翻阅官方文档')
 
 getEnvs_list_2 = QLAPI.getEnvs({ "searchValue": "mokey_qmyy_id" })
+print(getEnvs_list_2)
 YourUID = getEnvs_list_2['data']
 YourUID = YourUID[ 0 ]
 YourUID_name = YourUID['name']
+print(YourUID)
 if YourUID_name == 'mokey_qmyy_id':
     YourUID = YourUID[ 'value' ]
 else:
@@ -40,6 +44,7 @@ headers = {
     'Host': 'www.magicalapp.cn',
     'User-Agent': 'okhttp/4.9.3'
 }
+
 
 # 签到操作
 sign_response = requests.get(sign_url, headers=headers)
@@ -72,6 +77,7 @@ else:
 # 总硬币数
 total_coins = coin_count_sign + coin_count_burst
 str_total_coins = str( total_coins )
+
 
 info = f"""
 猴子脚本-奇妙应用自动签到
