@@ -19,6 +19,7 @@ def mydef():
     sleep(time)
 
     # 万年历
+    print("万年历>>>>>>")
     current_dateTime = datetime.now()
     y = current_dateTime.year
     m = current_dateTime.month
@@ -36,7 +37,16 @@ def mydef():
     print(gettt)
 
     # 版本检测
-
+    print("版本检测>>>>>>")
+    response_2 = requests.get('https://mokey-json.pages.dev/now.json')
+    print(response_2)
+    now = json.loads(response_2.text)
+    now = now["now"]
+    print(now)
+    if now == "1.1.0":
+        info2 = "当前已经为最新版！"
+    else:
+        info2 = f"最新版为“{now}”，运行订阅以更新！！"
 
     # 通知
     info = f"""
@@ -50,7 +60,8 @@ def mydef():
     今日忌：{gettt['Ji']}
     节气：{gettt['SolarTermName']}
     ~~~~~~~~~~
-    版本更新检查 开发制作中
+    版本更新检查结果：
+    {info2}
     ~~~~~~~~~~
     脚本来自mokey项目，作者全戈
     项目地址：
