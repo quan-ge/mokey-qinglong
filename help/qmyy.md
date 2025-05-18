@@ -1,34 +1,21 @@
+话说有没有人帮我翻译一下啊（不要ai）
+
 # 奇妙应用自动签到使用教程
 
 教程中使用了小黄鸟抓包token，所以看着比较长。
 
 但实际上是很简单的，几分钟就完成了。
 
-后续计划添加账户和密码登录。
+<del>后续计划添加账户和密码登录。</del>
 
 ## 获取token和id
 请先安装“奇妙应用”APP，此软件为安卓端软件。
 
 
 #### token
-1. 安装 “HttpCanary” 。
+（配置小黄鸟方法自行百度）
 
-2. 左上角三条杠 --＞ 打开设置中心
-
-![奇妙应用_2](https://raw.githubusercontent.com/quan-ge/mokey-qinglong/refs/heads/main/help/jpg/qmyy_2.jpg "奇妙应用_2")
-
-3. httpcanary根证书 --＞ 导出根证书
-
-![奇妙应用_3](https://raw.githubusercontent.com/quan-ge/mokey-qinglong/refs/heads/main/help/jpg/qmyy_3.jpg "奇妙应用_3")
-
-
-4. 选择 .pem 格式保存。
-
-5. 打开安卓系统设置，搜索或打开“加密和凭据”设置。
-
-6. 选择“从储存设备中安装”或“安装CA证书”
-
-7. 选择文件：“/Documents/HttpCanary/certs/HttpCanary.pem”
+（导入证书那一段删了，不然看着步骤多的吓人）
 
 8. 打开“奇妙应用”，进入“我的”页面。
 
@@ -39,8 +26,6 @@
 11. 返回“httpcanary”，再次点击右下角纸飞机图标结束抓包。
 
 12. 点击“奇妙应用”的那一段请求，按照如图所示，复制token
-
-![奇妙应用_12](https://raw.githubusercontent.com/quan-ge/mokey-qinglong/refs/heads/main/help/jpg/help_qmyy_12.jpg "奇妙应用_12")
 
 13. 记得找个地方保存token，并且不要发给别人或公开
 
@@ -78,3 +63,8 @@
 点击最后面三个点，选择启用
 
 3. 最后点击运行，测试一下就大功告成了🎉🎉🎉
+
+
+### 图片
+
+![奇妙应用_12](https://raw.githubusercontent.com/quan-ge/mokey-qinglong/refs/heads/main/help/jpg/help_qmyy_12.jpg "奇妙应用_12")
