@@ -1,12 +1,11 @@
 # cron:6 6 * * *
 # const $ = new Env("[mokey]奇妙应用自动签到")
 # V1.0.1
-# 作者：全戈
-# QUAN_GE
+# 作者：QUAN_GE
+# 
 
 import requests
 import datetime
-
 
 # 用户ID和token
 getEnvs_list = QLAPI.getEnvs({ "searchValue": "mokey_qmyy_token" })

@@ -1,8 +1,8 @@
 # cron:7 0 * * *
 # const $ = new Env("[mokey]每日通知")
 # V1.0.1
-# 作者：全戈
-# QUAN_GE
+# 作者：QUAN_GE
+# 
 
 import requests
 import random
