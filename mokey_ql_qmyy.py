@@ -75,8 +75,8 @@ total_coins = coin_count_sign + coin_count_burst
 str_total_coins = str( total_coins )
 
 info = f"""
-账号 {user_id} 签到完成✅✅✅
 猴子脚本-奇妙应用自动签到
+账号 {user_id} 签到完成✅✅✅
 ~~~~~~~~~~
 签到信息：
 {a_info}
