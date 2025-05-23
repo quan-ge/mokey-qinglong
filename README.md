@@ -20,8 +20,11 @@
 
 #### 脚本使用教程
 》》[奇妙应用自动签到配置](https://github.com/quan-ge/mokey-qinglong/blob/main/help/qmyy.md)
+
 》》[DAY](https://github.com/quan-ge/mokey-qinglong/blob/main/help/day.md)
+
 》》[更多（全部）](https://github.com/quan-ge/mokey-qinglong/tree/main/help)
+
 | 名称 | 多账号 | 登录方式 | 状态 | 功能 |
 | ---- | ---- | ---- | ---- | --- |
 | 奇妙应用 | ❌ | token+id | ✔️可用 | 每日签到+爆金币 |
