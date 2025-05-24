@@ -56,8 +56,7 @@ def mydef():
     print(getmusicurl)
     #     生成通知
     info_music = f"""为您推荐：{getmusic['artistsname']} 的 {getmusic['name']}
-    网易云链接：{getmusicurl}
-    """
+    网易云链接：{getmusicurl}"""
     print(info_music)
 
     # 版本检测
