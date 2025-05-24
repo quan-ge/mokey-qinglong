@@ -36,6 +36,30 @@ def mydef():
     gettt = gett['data']
     print(gettt)
 
+    # 音乐
+    #     获取音乐
+    response_3 = requests.get('https://free.wqwlkj.cn/wqwlapi/wyy_random.php?type=json')
+    print(response_3)
+    getmusic = json.loads(response_3.text)
+    print(getmusic)
+    getmusic = getmusic['data']
+    print(getmusic)
+    #     短链接
+    data = {
+        'url': getmusic['url']
+    }
+    response_4 = requests.get('https://url.hdgxl.com/api.php', params=data)
+    print(response_4)
+    get333 = json.loads(response_4.text)
+    print(get333)
+    getmusicurl = get333['code']
+    print(getmusicurl)
+    #     生成通知
+    info_music = f"""为您推荐：{getmusic['artistsname']} 的 {getmusic['name']}
+    网易云链接：{getmusicurl}
+    """
+    print(info_music)
+
     # 版本检测
     print("版本检测>>>>>>")
     response_2 = requests.get('https://mokey-json.pages.dev/now.json')
@@ -59,6 +83,8 @@ def mydef():
     今日宜：{gettt['Yi']}
     今日忌：{gettt['Ji']}
     节气：{gettt['SolarTermName']}
+    ~~~~~~~~~~
+    {info_music}
     ~~~~~~~~~~
     版本更新检查结果：
     {info2}

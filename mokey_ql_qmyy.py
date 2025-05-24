@@ -45,6 +45,18 @@ headers = {
     'User-Agent': 'okhttp/4.9.3'
 }
 
+# 版本检测
+print("版本检测>>>>>>")
+response_2 = requests.get('https://mokey-json.pages.dev/now.json')
+print(response_2)
+now = json.loads(response_2.text)
+now = now["now"]
+print(now)
+if now == "1.2.1":
+    info2 = "当前已经为最新版！"
+else:
+    info2 = f"最新版为“{now}”，运行订阅以更新！！"
+
 
 # 签到操作
 sign_response = requests.get(sign_url, headers=headers)
