@@ -56,7 +56,7 @@ def mydef():
     print(getmusicurl)
     #     生成通知
     info_music = f"""为您推荐：{getmusic['artistsname']} 的 {getmusic['name']}
-    网易云链接：{getmusicurl}"""
+    歌曲下载链接：{getmusicurl}"""
     print(info_music)
 
     # 版本检测
@@ -85,7 +85,7 @@ def mydef():
     ~~~~~~~~~~
     {info_music}
     ~~~~~~~~~~
-    版本更新检查结果：
+    版本更新检查：
     {info2}
     ~~~~~~~~~~
     脚本来自mokey项目，作者全戈
