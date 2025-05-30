@@ -100,4 +100,6 @@ def mydef():
     print(QLAPI.systemNotify({ "title": "自动签到通知-奇妙应用", "content": info }))
 
 
+
+
 mydef()
