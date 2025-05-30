@@ -14,9 +14,13 @@
 
 ## 说明
 
-脚本运行完之后，会调用青龙面板的api发送通知
+原版脚本运行完之后，会调用青龙面板的api发送通知
 
-所以目前只能在青龙上运行
+<del>所以目前只能在青龙上运行</del>
+
+"./py" 文件夹下是部分脚本的通用阉割版，可以在任何安装有python的地方运行
+
+阉割版的使用方法直接写在脚本注释里了
 
 # 使用教程
 后续将持续更新。
@@ -24,7 +28,7 @@
 
 [》》 在青龙面板上使用的教程](https://github.com/quan-ge/mokey-qinglong/blob/main/help/mokey.md)
 
-[》》 青龙面板脚本配置教程](https://github.com/quan-ge/mokey-qinglong/blob/main/help/mokey.md)
+[》》 青龙面板脚本配置教程](https://github.com/quan-ge/mokey-qinglong/blob/main/help/mokey.md#%E8%84%9A%E6%9C%AC%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B)
 
 
 #### 各脚本信息

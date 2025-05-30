@@ -26,7 +26,6 @@
 3. 回到青龙面板主页，点击更多
 
 
-
 ⚠️注：4到6步为可选
 
 ⚠️注：全部禁用是因为在未配置好的情况下，最好不要运行
@@ -52,6 +51,6 @@
 
 》》[奇妙应用自动签到配置](https://github.com/quan-ge/mokey-qinglong/blob/main/help/qmyy.md)
 
-》》[DAY](https://github.com/quan-ge/mokey-qinglong/blob/main/help/day.md)
+》》[DAY（更新检查）](https://github.com/quan-ge/mokey-qinglong/blob/main/help/day.md)
 
 》》[更多](https://github.com/quan-ge/mokey-qinglong/tree/main/help)
