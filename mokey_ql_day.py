@@ -24,6 +24,7 @@ def mydef():
     y = current_dateTime.year
     m = current_dateTime.month
     d = current_dateTime.day
+    d = d + 1
     t = "%s-%s-%s" % (y, m, d) 
 
     data = {
@@ -66,7 +67,7 @@ def mydef():
     now = json.loads(response_2.text)
     now = now["now"]
     print(now)
-    if now == "1.2.3":
+    if now == "1.2.4":
         info2 = "当前已经为最新版！"
     else:
         info2 = f"最新版为“{now}”，运行订阅以更新！！"
@@ -75,6 +76,7 @@ def mydef():
     info = f"""
     猴子脚本-（day）更新检查
     ~~~~~~~~~~
+    明天的黄历：
     公历日期：{gettt['GregorianDateTime']}
     农历日期：{gettt['LunarDateTime']}
     公历节日：{gettt['GJie']}
