@@ -48,4 +48,10 @@
 
 您已经完成✅猴子脚本的安装了，
 
-[请您前往脚本使用教程。](https://github.com/quan-ge/mokey-qinglong?tab=readme-ov-file#%E8%84%9A%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)
+# 脚本配置教程
+
+》》[奇妙应用自动签到配置](https://github.com/quan-ge/mokey-qinglong/blob/main/help/qmyy.md)
+
+》》[DAY](https://github.com/quan-ge/mokey-qinglong/blob/main/help/day.md)
+
+》》[更多](https://github.com/quan-ge/mokey-qinglong/tree/main/help)

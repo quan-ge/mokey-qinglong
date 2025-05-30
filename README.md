@@ -12,18 +12,22 @@
 
 但可能给人不靠谱的感觉，所以删除字母“N”。
 
+## 说明
+
+脚本运行完之后，会调用青龙面板的api发送通知
+
+所以目前只能在青龙上运行
+
 # 使用教程
-目前第一个脚本已发布，后续将持续更新。
+后续将持续更新。
 非常感谢您提出宝贵的意见。
 
-》》[前往查看猴子脚本安装教程](https://github.com/quan-ge/mokey-qinglong/blob/main/help/mokey.md)
+[》》 在青龙面板上使用的教程](https://github.com/quan-ge/mokey-qinglong/blob/main/help/mokey.md)
 
-#### 脚本使用教程
-》》[奇妙应用自动签到配置](https://github.com/quan-ge/mokey-qinglong/blob/main/help/qmyy.md)
+[》》 青龙面板脚本配置教程](https://github.com/quan-ge/mokey-qinglong/blob/main/help/mokey.md)
 
-》》[DAY](https://github.com/quan-ge/mokey-qinglong/blob/main/help/day.md)
 
-》》[更多（全部）](https://github.com/quan-ge/mokey-qinglong/tree/main/help)
+#### 各脚本信息
 
 | 名称 | 多账号 | 登录方式 | 状态 | 功能 |
 | ---- | ---- | ---- | ---- | --- |
