@@ -24,7 +24,7 @@ y = current_dateTime.year
 m = current_dateTime.month
 d = current_dateTime.day
 t = "%s-%s-%s" % (y, m, d) 
-today = datetime.now()
+today = datetime.datetime.now()
 sign_url = "http://www.magicalapp.cn/user/api/signDays"
 burst_url = f"https://www.magicalapp.cn/api/game/api/getCoinP?userId={user_id}"
 headers = {

@@ -36,7 +36,7 @@ user_id = YourUID
 token = YourToken
 
 #获取时间
-today = datetime.now()
+today = datetime.datetime.now()
 
 # 签到和爆硬币API的端点
 sign_url = "http://www.magicalapp.cn/user/api/signDays"
