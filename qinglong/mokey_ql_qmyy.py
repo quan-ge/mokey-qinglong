@@ -6,7 +6,6 @@
 
 import requests
 import datetime
-from datetime import datetime
 import json
 
 # 用户ID和token

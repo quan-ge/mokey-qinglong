@@ -13,11 +13,10 @@ token = "[YourToken]"
 
 
 
-# 下面的就不要动了,除非你知道自己在做什么
-# 这个脚本不会更新了，有问题不要反馈
+# 下面的就不要动了，除非你知道自己在做什么
+# 这个脚本不会更新了，有问题不要反馈，反馈了我也不想修
 import requests
 import datetime
-from datetime import datetime
 import json
 current_dateTime = datetime.now()
 y = current_dateTime.year
