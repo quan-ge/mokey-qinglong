@@ -1,10 +1,5 @@
 # [mokey]奇妙应用自动签到
 # 作者：QUAN_GE
-import requests
-import datetime
-import json
-
-
 
 # 请修改成你的token和id
 # 参考：https://github.com/quan-ge/mokey-qinglong/blob/main/help/qmyy.md#%E8%8E%B7%E5%8F%96token%E5%92%8Cid
@@ -15,10 +10,21 @@ import json
 user_id = "[YourUID]"
 token = "[YourToken]"
 
-# 下面的就不要动了
 
 
-today = datetime.datetime.now()
+
+# 下面的就不要动了,除非你知道自己在做什么
+# 这个脚本不会更新了，有问题不要反馈
+import requests
+import datetime
+from datetime import datetime
+import json
+current_dateTime = datetime.now()
+y = current_dateTime.year
+m = current_dateTime.month
+d = current_dateTime.day
+t = "%s-%s-%s" % (y, m, d) 
+today = datetime.now()
 sign_url = "http://www.magicalapp.cn/user/api/signDays"
 burst_url = f"https://www.magicalapp.cn/api/game/api/getCoinP?userId={user_id}"
 headers = {
@@ -69,3 +75,9 @@ info = f"""
 https://github.com/quan-ge/mokey-qinglong/
 """
 print(info)
+file = f'./logs/qmyy/{t}.log'
+print(f"日志文件：{file}")
+fo = open(file, mode='x')
+fo.write( info )
+fo.close()
+
