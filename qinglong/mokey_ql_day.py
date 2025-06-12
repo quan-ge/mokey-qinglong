@@ -97,7 +97,7 @@ def mydef():
     print(info)
     # 调用青龙api发送通知
     print("发送通知...")
-    print(QLAPI.systemNotify({ "title": "自动签到通知-奇妙应用", "content": info }))
+    print(QLAPI.systemNotify({ "title": "自动签到通知-DAY", "content": info }))
 
 
 
