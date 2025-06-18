@@ -129,6 +129,7 @@ except Exception as e:
     ~~~~~~~~~~
     反馈渠道：
     https://github.com/quan-ge/mokey-qinglong/issues
+    https://gitee.com/quan_ge/mokey-qinglong/issues
     quan@email.120322.xyz
     ~~~~~~~~~~
     脚本来自mokey项目，作者全戈
