@@ -59,11 +59,3 @@
 
 ---
 
-
-# 脚本配置教程
-
-》》[奇妙应用自动签到配置](./blob/main/help/qmyy.md)
-
-》》[DAY（更新检查）](./blob/main/help/day.md)
-
-》》[更多](./tree/main/help)

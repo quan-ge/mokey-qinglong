@@ -26,9 +26,9 @@
 后续将持续更新。
 非常感谢您提出宝贵的意见。
 
-[》》 在青龙面板上使用的教程](https://github.com/quan-ge/mokey-qinglong/blob/main/help/mokey.md)
+[》》 在青龙面板上使用的教程](./blob/main/help/mokey.md)
 
-[》》 青龙面板脚本配置教程](https://github.com/quan-ge/mokey-qinglong/blob/main/help/mokey.md#%E8%84%9A%E6%9C%AC%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B)
+[》》 青龙面板脚本配置教程](./blob/main/help/all.md)
 
 
 #### 各脚本信息
