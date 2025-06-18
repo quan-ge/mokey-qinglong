@@ -68,4 +68,4 @@
 
 ### 图片
 
-![奇妙应用_12](https://raw.githubusercontent.com/quan-ge/mokey-qinglong/refs/heads/main/help/jpg/help_qmyy_12.jpg "奇妙应用_12")
+![奇妙应用_12](https://gitee.com/quan_ge/mokey-qinglong/raw/main/help/jpg/help_qmyy_12.jpg "奇妙应用_12")
