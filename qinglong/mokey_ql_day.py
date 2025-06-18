@@ -1,6 +1,5 @@
 # cron:6 0 * * *
 # const $ = new Env("[mokey]每日通知")
-# V1.1.0
 # 作者：QUAN_GE
 # 
 
@@ -11,7 +10,7 @@ from time import sleep
 from datetime import datetime
 import json
 
-def mydef():
+def day():
     # 延时运行脚本，以防万一
     time = random.uniform(0, 20)
     stltime = str(time)
@@ -74,7 +73,7 @@ def mydef():
 
     # 通知
     info = f"""
-    猴子脚本-（day）更新检查
+    猴子脚本-（DAY）更新检查
     ~~~~~~~~~~
     明天的黄历：
     公历日期：{gettt['GregorianDateTime']}
@@ -101,5 +100,25 @@ def mydef():
 
 
 
+try:
+    day()
+except Exception as e:
+    print("脚本运行出错！!!!")
+    error_info = f"""
+    猴子脚本-（DAY）更新检查
+    ~~~~~~~~~~
+    脚本运行出错，请检查日志！
+    错误信息：{str(e)}
+    出错行：{str(e.__traceback__.tb_lineno)}
+    ~~~~~~~~~~
+    反馈渠道：
+    https://github.com/quan-ge/mokey-qinglong/issues
+    quan@email.120322.xyz
+    ~~~~~~~~~~
+    脚本来自mokey项目，作者全戈
+    项目地址：
+    https://github.com/quan-ge/mokey-qinglong/
+    """
+    print(error_info)
+    print(QLAPI.systemNotify({ "title": "自动签到通知-DAY", "content": error_info }))
 
-mydef()
