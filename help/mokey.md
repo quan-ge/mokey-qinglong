@@ -62,8 +62,8 @@
 
 # 脚本配置教程
 
-》》[奇妙应用自动签到配置](https://github.com/quan-ge/mokey-qinglong/blob/main/help/qmyy.md)
+》》[奇妙应用自动签到配置](./blob/main/help/qmyy.md)
 
-》》[DAY（更新检查）](https://github.com/quan-ge/mokey-qinglong/blob/main/help/day.md)
+》》[DAY（更新检查）](./blob/main/help/day.md)
 
-》》[更多](https://github.com/quan-ge/mokey-qinglong/tree/main/help)
+》》[更多](./tree/main/help)
