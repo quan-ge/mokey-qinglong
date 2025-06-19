@@ -6,11 +6,9 @@
 
 ⭐️⭐️⭐️⭐️⭐️
 
-脚本仅供学习参考
+话说我要不要整个免责声明啥的？
 
-“mokey”的名字来源于猴子的英文“monkey”，
-
-但可能给人不靠谱的感觉，所以删除字母“N”。
+英文名少“n”不是打错了，我故意的
 
 ## 说明
 
@@ -45,3 +43,18 @@
 ✅ DAY已上线！
 
 ⬜ 更多脚本
+
+## 问题反馈
+
+建议直接邮件
+
+#### issues
+
+https://github.com/quan-ge/mokey-qinglong/issues
+https://gitee.com/quan_ge/mokey-qinglong/issues
+https://gitcode.com/quan6_6/mokey-qinglong/issues
+
+#### Email
+
+quan@email.120322.xyz
+quan—ge@outlook.com
