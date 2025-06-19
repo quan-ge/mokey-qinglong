@@ -68,4 +68,6 @@
 
 ### 图片
 
-![奇妙应用_12](https://raw.gitcode.com/quan6_6/mokey-qinglong/blobs/dda521eaf9452990970cf67a0f2ce76db662f531/help_qmyy_12.jpg "奇妙应用_12")
+![奇妙应用_12](https://img.picui.cn/free/2025/06/19/6853621c9842a.jpg "奇妙应用_12")
+![奇妙应用_2](https://img.picui.cn/free/2025/06/19/6853621c53cca.jpg "奇妙应用_2")
+![奇妙应用_3](https://img.picui.cn/free/2025/06/19/6853621cdd861.jpg "奇妙应用_3")
