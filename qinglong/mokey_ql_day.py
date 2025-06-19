@@ -66,7 +66,7 @@ def day():
     now = json.loads(response_2.text)
     now = now["now"]
     print(now)
-    if now == "1.2.4":
+    if now == "1.3.1":
         info2 = "当前已经为最新版！"
     else:
         info2 = f"最新版为“{now}”，运行订阅以更新！！"
