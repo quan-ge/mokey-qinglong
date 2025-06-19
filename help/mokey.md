@@ -20,10 +20,9 @@
 不过在国内可能出现一点网络问题
 
 可以把订阅链接改成下面任意一个：
+<code> https://gitproxy.click/https://github.com/quan-ge/mokey-qinglong.git <code>
 
-'https://gitproxy.click/https://github.com/quan-ge/mokey-qinglong.git'
-
-'https://gitee.com/quan_ge/mokey-qinglong.git'
+<code> https://gitee.com/quan_ge/mokey-qinglong.git <code>
 
 
 ---
