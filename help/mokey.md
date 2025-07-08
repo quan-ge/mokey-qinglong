@@ -9,13 +9,12 @@
 >
 >订阅链接： https://github.com/quan-ge/mokey-qinglong.git
 >
->分支：     main
->
 >白名单：   mokey_ql_*
 >
 >定时：     0 0 1 * *
 >
 
+其他的不用动
 
 不过在国内可能出现一点网络问题
 
