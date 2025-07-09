@@ -54,11 +54,8 @@
 
 <code> https://gitee.com/quan_ge/mokey-qinglong/issues </code>
 
-<code> https://gitcode.com/quan6_6/mokey-qinglong/issues </code>
-
 
 #### Email
 
 <code> quan@email.120322.xyz </code>
 
-<code> quan-ge@outlook.com </code>
