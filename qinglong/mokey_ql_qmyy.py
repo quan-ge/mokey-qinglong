@@ -116,8 +116,39 @@ def qmyy():
 
 
 
+
 try:
-    qmyy()
+    response = requests.get('https://mokeyqlapi.120322.xyz/now.json')
+    print(response)
+    now = json.loads(response.text)
+    run = now["run"]
+    print(now)
+    if run == "yes":
+        try:
+            qmyy()
+        except Exception as e:
+            print("脚本运行出错！!!!")
+            error_info = f"""
+    猴子脚本-奇妙应用
+    ~~~~~~~~~~
+    脚本运行出错，请检查日志！
+    错误信息：{str(e)}
+    出错行：{str(e.__traceback__.tb_lineno)}
+    ~~~~~~~~~~
+    反馈渠道：
+    https://github.com/quan-ge/mokey-qinglong/issues
+    https://gitee.com/quan_ge/mokey-qinglong/issues
+    quan@email.120322.xyz
+    ~~~~~~~~~~
+    脚本来自mokey项目，作者全戈
+    项目地址：
+    https://github.com/quan-ge/mokey-qinglong/
+            """
+            print(error_info)
+            print(QLAPI.systemNotify({ "title": "自动签到通知-奇妙应用", "content": error_info }))
+    elif run == "no":
+        print("一边去")
+
 except Exception as e:
     print("脚本运行出错！!!!")
     error_info = f"""
